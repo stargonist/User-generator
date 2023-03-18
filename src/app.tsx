@@ -6,7 +6,6 @@ import Dashboard from './pages/Dashboard/Dashboard'
 import './app.scss'
 
 export function App() {
-  const [loader, setLoader] = useState<boolean | StateUpdater<boolean>>(true);
   const [userCounter, setUserCounter] = useState<number | StateUpdater<number>>(0);
   const state = [userCounter, setUserCounter];
 
