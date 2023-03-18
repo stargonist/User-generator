@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <footer id={styles.footer}>
             <span id={styles.preact}>
-                <strong> Builded in: </strong>
+                <strong> Builded with: </strong>
                 <span> Preact </span>
                 <img id={styles.logoPreact} src={logoPreact} alt="Logo Preact" />
             </span>
