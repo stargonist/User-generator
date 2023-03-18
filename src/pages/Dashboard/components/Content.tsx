@@ -32,6 +32,23 @@ export const Content = ({props}: {props:any}) => {
                     <strong> Gender: </strong>
                     {user.gender}
                 </span>
+                <span>
+                    <strong> Email: </strong>
+                    {user.email}
+                </span>
+                <span>
+                    <strong> State: </strong>
+                    {user.location.state}
+                </span>
+                <span>
+                    <strong> Street: </strong> 
+                    <span>
+                        {user.location.street.name}
+                    </span>
+                    <span>
+                        #{user.location.street.number}
+                    </span>
+                </span>
             </div>
         </motion.main>
     );
