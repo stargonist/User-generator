@@ -1,9 +1,9 @@
 import Router, { Route } from 'preact-router'
 import { StateUpdater, useState } from 'preact/hooks';
-import './app.scss'
 import { Footer } from './application/components/Footer';
 import { Header } from './application/components/Header'
 import Dashboard from './pages/Dashboard/Dashboard'
+import './app.scss'
 
 export function App() {
   const [loader, setLoader] = useState<boolean | StateUpdater<boolean>>(true);
