@@ -1,6 +1,6 @@
 # User generator
 
-![Scrrenshot](https://i.ibb.co/M82gD24/image.png "Screenhost")
+![Scrrenshot](https://i.ibb.co/z6S5ZSh/image.png "Screenhost")
 
 <div id="badges">
 <a target="__blank" href="https://www.facebook.com/profile.php?id=100090790984897">
