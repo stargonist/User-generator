@@ -1,0 +1,24 @@
+#photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    background-color: #151515;
+}
+
+#information {
+    width: 100%;
+    max-width: 300px;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+strong {
+    font-weight: bold;
+}

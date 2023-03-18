@@ -1,0 +1,14 @@
+@import "./application/styles/generic/index.scss";
+
+:root {
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+
+  background: #202020;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
